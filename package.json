@@ -1,0 +1,27 @@
+{
+  "name": "map-env-node",
+  "version": "0.1.0",
+  "description": "The library maps the environment variables to the typescript object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3Tecnos-Development/map-env-node.git"
+  },
+  "author": "Lindsay Cerqueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3Tecnos-Development/map-env-node/issues"
+  },
+  "homepage": "https://github.com/3Tecnos-Development/map-env-node#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6",
+    "@types/node": "^14.0.23"
+  }
+}

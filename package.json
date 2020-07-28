@@ -22,11 +22,12 @@
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
+    "@types/node": "^14.0.23",
+    "jest": "^26.1.0",
     "ts-node": "^8.10.2",
-    "typescript": "^3.9.6",
-    "@types/node": "^14.0.23"
+    "typescript": "^3.9.6"
   },
-  "files":[
+  "files": [
     "lib/**/*"
   ]
 }

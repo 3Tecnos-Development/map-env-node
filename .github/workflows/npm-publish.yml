@@ -12,9 +12,8 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: yarn
-      - run: yarn publish
-      - run: yarn run postversion
+      - run: npm publish
+      - run: npm run postversion
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
   create-release:

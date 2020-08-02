@@ -1,12 +1,13 @@
 {
   "name": "map-env-node",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "The library maps the environment variables to the typescript object",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",

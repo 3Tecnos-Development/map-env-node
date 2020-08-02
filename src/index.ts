@@ -1,5 +1,5 @@
 /**
- * MapEnv -> Class to
+ * MapEnv -> Class that provide the mapping of environment variables easy
  */
 export class MapEnv {
   /**

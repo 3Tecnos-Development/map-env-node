@@ -1,5 +1,5 @@
 import { MapEnv } from "../index";
-/*
+
 describe("MapEnv functions T <String>", () => {
   process.env.KEY = "VALUE";
   process.env.JSON_KEY = '{ "VALUE": "OK" }';
@@ -55,4 +55,3 @@ describe("MapEnv functions T <Object>", () => {
     expect(result.value).toEqual("OK");
   });
 });
-*/

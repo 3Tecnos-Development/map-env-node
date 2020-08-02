@@ -1,6 +1,6 @@
 {
   "name": "map-env-node",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "The library maps the environment variables to the typescript object",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

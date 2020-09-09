@@ -5,9 +5,6 @@
   <a href="https://www.npmjs.com/package/map-env-node">
     <img src="https://img.shields.io/npm/v/map-env-node.svg" alt="NPM">
   </a>
-  <!--a href="https://coveralls.io/github/3Tecnos-Development/map-env-node?branch=master">
-    <img src="https://coveralls.io/repos/github/3Tecnos-Development/map-env-node/badge.svg?branch=master">
-  </a-->  
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="MIT">
   </a>

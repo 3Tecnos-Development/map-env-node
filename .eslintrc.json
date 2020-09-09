@@ -1,71 +1,37 @@
 {
   "env": {
     "browser": true,
-    "es2020": true,
+    "es2021": true,
     "jest": true
   },
-  "extends": [
-    "plugin:react/recommended",
-    "airbnb",
-    "prettier",
-    "prettier/@typescript-eslint"
-  ],
+  "extends": ["airbnb-base", "prettier", "prettier/@typescript-eslint"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": 11, // Allows for the parsing of modern ECMAScript features
-    "sourceType": "module", // Allows for the use of imports
-    "ecmaFeatures": {
-      "jsx": true // Allows for the parsing of JSX
-    }
+    "ecmaVersion": 12,
+    "sourceType": "module"
   },
   "settings": {
-    "react": {
-      "version": "detect" // Tells eslint-plugin-react to automatically detect the version of React to use
-    },
     "import/resolver": {
       "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "extensions": [".js", ".ts"],
         "typescript": {}
       }
     }
   },
-  "plugins": [
-    "react",
-    "@typescript-eslint",
-    "prettier",
-    "eslint-plugin-import-helpers"
-  ],
+  "plugins": ["@typescript-eslint"],
   "rules": {
-    "import-helpers/order-imports": [
-      "warn",
-      {
-        "newlinesBetween": "always", // new line between groups
-        "groups": ["/^react/", "module", ["parent", "sibling", "index"]],
-        "alphabetize": { "order": "asc", "ignoreCase": true }
-      }
-    ],
-    "react/jsx-filename-extension": [
-      "error",
-      {
-        "extensions": [".tsx"]
-      }
-    ],
     "import/extensions": [
       "error",
       "ignorePackages",
       {
         "js": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never"
+        "ts": "never"
       }
     ],
     "indent": ["error", 2],
-    "react/jsx-indent": ["error", 2],
     "@typescript-eslint/indent": ["error", 2],
     "quotes": [2, "double", { "avoidEscape": true }],
     "import/prefer-default-export": "off",
-    "react/prop-types": "off",
     "import/no-dynamic-require": "off",
     "global-require": "off",
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]

@@ -10,9 +10,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Install Package dependencies
-        run: yarn install
+        run: npm install
       - name: Build
-        run: yarn build
+        run: npm build
       - name: Publish
         run: |
           npm config set //registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN
